@@ -14,7 +14,7 @@ sys.path.append(str(Path(__file__).parent))
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "weather_awareness.settings")
 django.setup()
 
-# Import the service
+
 from awareness.services import WeatherService
 
 def test_weather_service():
