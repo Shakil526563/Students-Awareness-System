@@ -12,7 +12,6 @@ sys.path.append(str(Path(__file__).parent))
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "weather_awareness.settings")
 django.setup()
 
-# Django imports
 from awareness.services import EmailService
 
 def test_email_service_directly():
