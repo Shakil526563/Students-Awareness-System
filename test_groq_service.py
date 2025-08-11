@@ -42,7 +42,6 @@ def test_groq_service():
             
         print(f"Weather data retrieved: {weather_data['condition']}, {weather_data['temperature']}°C")
         
-        # Now test Groq
         print("Generating AI message using Groq...")
         ai_message = groq_service.generate_awareness_message(location, today_str, weather_data)
         
