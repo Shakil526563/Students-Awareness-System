@@ -9,7 +9,6 @@ from pathlib import Path
 import json
 from datetime import datetime
 
-# Set up Django environment
 sys.path.append(str(Path(__file__).parent))
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "weather_awareness.settings")
 django.setup()
