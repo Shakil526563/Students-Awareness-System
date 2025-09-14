@@ -1,7 +1,9 @@
 # Students Awareness System 🌤️
 
 
-Uploading Student Awarness System.mp4…
+
+https://github.com/user-attachments/assets/f2ebeafd-7cef-409e-8e7a-89b15ba13a6b
+
 
 
 A Django-based REST API system that provides weather awareness notifications for students and their guardians. The system uses AI-powered recommendations to generate safety messages based on weather conditions and automatically sends email notifications to guardians.
@@ -250,3 +252,4 @@ For support, please open an issue on GitHub or contact the development team.
 ---
 
 **Built with ❤️ for student safety and awareness**
+
